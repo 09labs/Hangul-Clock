@@ -61,10 +61,25 @@ Gerber 폴더에 있는 파일을 PCB 주문제작업체에 보내면 알아서 
 
 부품리스트
 
-Arduino Nano - 1
-USB Micro breakout board - 1
-WS2812 - 36EA (http://goo.gl/elRKqF) <b style="font-color:red">꼭 4핀짜리로 구매할 것!!!</b>
+Arduino Nano - 1EA (http://storefarm.naver.com/ic11401/products/650416459)
+USB Micro breakout board - 1EA (https://goo.gl/hY34n9)
+DS1302 - 1EA (http://storefarm.naver.com/ic11401/products/646964977)
+
+WS2812 - 36EA (http://goo.gl/elRKqF) ****꼭 4핀짜리로 구매할 것!!!****
 네오픽셀 Strip - LED 간격이 1.65cm인 것을 선택할 것 (http://www.devicemart.co.kr/1328620)
+
+WS2812와 네오픽셀 스트립 중 하나만 구입하면 됩니다!
+
+0805 Ceramic Capacitor 100nF - 36EA (http://www.devicemart.co.kr/8191)
+0805 Chip resistor 10K ohm - 3EA (http://www.devicemart.co.kr/19263)
+12x12mm Tact switch - 3EA (http://www.devicemart.co.kr/35853)
+Pin Header Socket 2.54mm 1x15 Straight - 2EA (http://www.devicemart.co.kr/12497)
+Pin Header Socket 2.54mm 1x5 Straight - 2EA (http://www.devicemart.co.kr/12494)
+Molex 5045 3pin - 1EA (http://www.devicemart.co.kr/462)
+Molex 5051 3pin - 1EA (http://www.devicemart.co.kr/501)
+Molex 5051 crimp - 3EA (http://www.devicemart.co.kr/5464)
+
+업체로부터 지원을 받아 제작한 글이 아님을 알려드립니다.
 
 
 

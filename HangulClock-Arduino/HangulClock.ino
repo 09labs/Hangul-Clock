@@ -25,9 +25,8 @@ timerr TT;
 void callBack(){
   tim = rtc.getTimeStr();
   hangul.blinkSec();
-  //Serial.println(TT.hours);
-  //Serial.println(tim);
-}
+  Serial.println(tim);
+  }
 void setup() {
   myThread.onRun(callBack);
   myThread.setInterval(1000);
@@ -56,17 +55,20 @@ void setup() {
   TT.mins = t.substring(t_first+1,t_seconds).toInt();
   TT.secs = t.substring(t_seconds+1).toInt();
   
-  // put your setup code here, to run once:
-  //rtc.halt(false);
-  //rtc.writeProtect(false);
-  
+   
   // Setup Serial connection
   Serial.begin(9600);
-
-  // The following lines can be commented out to use the values already stored in the DS1302
-  //rtc.setDOW(FRIDAY);        // Set Day-of-Week to FRIDAY
+  //rtc.halt(false);
+  //rtc.writeProtect(false);   
+  //rtc.setDOW(FRIDAY);
   //rtc.setDate(TT.days, TT.months, TT.years);
   //rtc.setTime(TT.hours, TT.mins, TT.secs);
+  /*
+  RTC에 해당하는 주석을 모두 해제할 경우 RTC모듈에 시간이 기록됩니다
+  요일을 설정하고 싶으면 setDOW안의 단어를 변경하세요.
+  주석을해제한뒤업로드하면DS1302에시간이기록됩니다
+  시리얼 모니터를 켜서 시간을 확인한 뒤에는 반드시 RTC에 해당하는 부분의 주석처리를 다시 한 뒤 업로드를 해주셔야 정상 작동합니다
+  */
   hangul.resetLED();
 }
 

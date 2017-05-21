@@ -53,15 +53,6 @@ AMPM(uint8_t hours) - hours의 값에 따라서 오전, 오후 값을 바꿔 표
 
 updateTime() - 시간을 갱신시킵니다.
 
-  blinkSec();
-  AMPM(_time.hours);
-  hourChange(_time.hours,_time.minutes);
-  minuteChange(_time.minutes);
-  pixels.show();
-  if((_time.secs != _old_secs) && _time.secs == 0){
-    resetLED();
-  }
-  _old_secs = _time.secs;
 
 # PCB 주문방법
 

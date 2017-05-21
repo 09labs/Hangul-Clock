@@ -1,6 +1,7 @@
 # Hangul Clock
 
 한글시계 프로젝트입니다. 단국대학교 학술동아리 연구방에서 지원받아 제작한 프로젝트입니다.
+
 프로젝트 참여자 - 김승권(팀장), 유정훈, 황주원, 차동준
 
 V 1.0 - 기존 한글시계에서 버튼을 추가하여 색을 변경하는 기능을 추가하였습니다. RGB 각각 12단계로 조절이 가능합니다.
@@ -9,10 +10,13 @@ V 1.0 - 기존 한글시계에서 버튼을 추가하여 색을 변경하는 기
 English
 
 Korean(Hangul) Clock Project. 09room is electrical and electronic community. 09room supported this project.
+
 Project Manager - Seung Gwon, Kim
+
 Project Member - Jeong Hoon, You / Joowon, Hwang / Dong Joon, Cha
 
 V 1.0 - Originally Hangul clock has a function that display time. But i added a button. 
+
 So you can change a color R, G, B 12 levels.
 
 made by Seung Gwon, Kim
@@ -23,7 +27,9 @@ made by Seung Gwon, Kim
 아두이노 IDE설치 후 DS1302 리이브러리(Henning Karlsen)와 Thread 라이브러리, Adafruit NeoPixel 라이브러리를 추가합니다.
 
 DS1302 - http://www.rinkydinkelectronics.com/library.php?id=5
+
 Thread - 아두이노IDE -> 스케치  -> 라이브러리 포함하기 -> 라이브러리 관리 -> Thread 검색 후 추가
+
 Adafruit NeoPixel - https://github.com/adafruit/Adafruit_NeoPixel
 
 Github에서 다운받으신 압축파일은 아두이노 IDE - 스케치 - 라이브러리 포함하기 - .ZIP 라이브러리 추가 기능을 사용하시면 됩니다.
